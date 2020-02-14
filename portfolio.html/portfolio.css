@@ -1,0 +1,84 @@
+.body {
+    background-colour:pink
+}
+
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-right: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: blue;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color:white;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 1px;
+    margin-left: 700px;
+    margin-bottom: 900px;
+  }
+  h3{
+      margin-left: 700px;
+      font-size: 24;
+    }
+    .contact form{
+        display:flex;
+        align-content: center;
+    }
+   
+   body {
+      background-image: url("solid.solid.jfif");
+   }
+
+   .nav-bar{ 
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items: center;
+    text-color:white;
+
+}
+.link{
+    width: 100%;
+    background-colour:blanchedalmond;
+    justify-content: center;
+    text-align: center;
+    padding: 30px 0 30px 0;
+    border: 2px;
+
+}
+
+.nav-bar a{
+    color:none;
+    text-decoration: none;
+    /* border: 2px solid white; */
+    width: 200px;
+}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+} 
+body{
+    background-image: url('solid2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: border-box;
+}
